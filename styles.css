@@ -12,18 +12,23 @@
 .jumbotron {
     padding-top: 1.2vw;
     height: 15vw;
+    color:white;
+    text-shadow: 1px 1px 1px black;
 }
 
 .display-4{
-    color: white;
     font-size: 4.5vw;
-    text-shadow: 1px 1px 1px black;
 }
+
+.alternate{
+    color: black;
+    text-shadow: 1px 1px 1px lightgray;
+}
+
 .lead{
-    color: white;
     font-size: 2vw;
-    text-shadow: 1px 1px 1px black;
 }
+
 .navbar{
     background-color: white;
 }
@@ -43,11 +48,11 @@
     background-color:  rgba(201, 15, 15, 0.726);
     color:white;
 }
-.h3{
-    font-size: 4vw;
+.detailheader{
+    font-size: 2.5vw;
 }
 .details{
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 .logos{
     width: 5vw;
@@ -59,25 +64,25 @@
 .bowlinglogo{
     padding:0px;
     width:100%;
-    max-height:500px;
+    max-height:300px;
 }
 .boccelogo{
     padding:0px;
     width:100%;
-    max-height:500px;
+    max-height:300px;
 }
 .dodgeballlogo{
     padding:0px;
     width:100%;
-    max-height:500px;  
+    max-height:300px;  
 }
 .kickballlogo{
     padding:0px;
     width:100%;
-    max-height:500px;
+    max-height:300px;
 }
 .lowernav{
-    padding:10px;
+    padding:15px;
     color: lightgray;
     align-items: right;
 }
@@ -87,9 +92,11 @@
 }
 .card-title{
     text-align: center;
+    font-size: 2vw;
 }
 .card-body{
-    height:20vw;
+    text-align: center;
+    font-size: 1.4vw;
 }
 .card-text{
     height:7.5vw;
@@ -98,11 +105,23 @@
     text-align: right;
 }
 .fa-address-card{
-    font-size: 5vw;
+    font-size: 1.5vw;
 }
 .col-md{
     padding:.1vw;
 }
 .fab{
     padding-right:0.5vw;
+}
+.btn{
+    font-size: 1.5vw;
+}
+.aboutc{
+    max-height: 375px;
+}
+.BoardPhotos{
+    max-height: 250px;
+}
+.col-sm{
+    padding: .1vw;
 }
